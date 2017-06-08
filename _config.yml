@@ -1,7 +1,6 @@
 # Variables set by GitHub
 safe: true
 lsi: false
-pygments: true
 source: .
 
 # Use nice sensible URLs like:
