@@ -14,6 +14,12 @@
 
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
     <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
+    <style>
+    html, body {
+      min-width: 300px;
+      max-width: 1300px;
+    }
+    </style>
 
     {%include google-analytics.html %}
   </head>
@@ -23,10 +29,10 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
-          <a class="brand" href="{{ '/' | relative_url }}">Chris Cummins</a>
+          <a class="brand" href="https://chriscummins.cc">Chris Cummins</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right login-creds">
-              Logged in as <strong>root</strong>
+              Logged in as <strong>root</strong> - <a href="https://chriscummins.cc">Log out</a>
             </p>
             <ul class="nav">
               <li {% if page.url == "/" %}class="active"{% endif %}><a href="{{ '/' | relative_url }}">Home</a></li>
