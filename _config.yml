@@ -13,7 +13,7 @@ baseurl: /dos
 #
 #    /15/05/12/nasty/url
 #
-permalink: /posts/:title
+permalink: /posts/:title/
 
 # Enable HTTP redirects
 gems:
