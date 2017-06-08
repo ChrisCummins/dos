@@ -17,7 +17,7 @@ doesn't invent any new kinds of data structures, but what it does do
 is to **fix a problem** and **save time**. Is that not what computers
 were built for?
 
-![Before](/images/2014-01-20-before.png)
-![After](/images/2014-01-20-after.png)
+![Before]({{ '/images/2014-01-20-before.png' | relative_url }})
+![After]({{ '/images/2014-01-20-after.png' | relative_url }})
 
 ### [liquid-src on GitHub](https://github.com/ChrisCummins/liquid-src)

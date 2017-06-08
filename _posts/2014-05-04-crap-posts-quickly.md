@@ -3,7 +3,7 @@ layout: default
 title: On writing crap posts, quickly
 ---
 
-By way of follow up to my [last post](/posts/crap-code-quickly), I
+By way of follow up to my [last post]({{ '/posts/crap-code-quickly' | relative_url }}), I
 think it's interesting that I seem to have the opposite problem when
 it comes to writing blog posts. While I'll happily dive into writing a
 program with little concern for planning or testing, I take a much

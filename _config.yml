@@ -3,6 +3,8 @@ safe: true
 lsi: false
 source: .
 
+baseurl: /dos
+
 # Use nice sensible URLs like:
 #
 #    /nice/sensible/url
