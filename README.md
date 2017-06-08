@@ -1,6 +1,6 @@
 # DOS version of [my blog](https://github.com/ChrisCummins/chriscummins.github.io)
 
-![](dos.png)
+[![](dos.png)](https://chriscummins.cc/dos/)
 
 # License
 
