@@ -29,9 +29,9 @@
               Logged in as <strong>root</strong>
             </p>
             <ul class="nav">
-              <li class="active"><a href="/">Home</a></li>
-              <li><a href="/cv/">CV</a></li>
-              <li><a href="/projects/">Projects</a></li>
+              <li {% if page.url == "/" %}class="active"{% endif %}><a href="/">Home</a></li>
+              <li {% if page.url == "/cv/" %}class="active"{% endif %}><a href="/cv/">CV</a></li>
+              <li {% if page.url == "/projects/" %}class="active"{% endif %}><a href="/projects/">Projects</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -47,9 +47,9 @@
                 <a href="/">
                   <img id="selfie" src="/images/selfie.jpg"/>
                 </a>
-                <li class="active"><a href="/">Home page</a></li>
-                <li><a href="/cv/">Curriculum Vitae</a></li>
-                <li><a href="/projects/">Open Source Projects</a></li>
+                <li {% if page.url == "/" %}class="active"{% endif %}><a href="/">Home page</a></li>
+                <li {% if page.url == "/cv/" %}class="active"{% endif %}><a href="/cv/">Curriculum Vitae</a></li>
+                <li {% if page.url == "/projects/" %}class="active"{% endif %}><a href="/projects/">Open Source Projects</a></li>
                 <hr>
                 <li><a href="http://www.linkedin.com/profile/view?id=195091553" target="_blank">LinkedIn</a></li>
                 <li><a href="https://github.com/ChrisCummins"                   target="_blank">GitHub</a></li>
